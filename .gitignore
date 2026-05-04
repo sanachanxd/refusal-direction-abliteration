@@ -1,0 +1,44 @@
+# Model weights (too large for git)
+models/
+*.bin
+*.safetensors
+*.ot
+*.onnx
+
+# Private drafts and non-code research artifacts
+paper/
+drafts/
+*.docx
+results/
+data/*.json
+
+# Harmful generated outputs (not included for ethical reasons)
+results/*intervention_results.json
+results/*harmful_asr_results.json
+results/legacy_*
+
+# Logs
+*.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+venv/
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Jupyter
+*.ipynb_checkpoints/
+
+# Temporary
+*.tmp
+*.bak
